@@ -1,177 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/ball.png" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="header-row"> 
-        <div class="box"><h1>Mokshith</h1></div>
-        <div class="box">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
 
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
+  <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a> <!-- Fixed typo -->
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="left-section">
+      <div class="content">
+        <p id="special">Hello Everyone!</p>
+        <h1>I'M MOKSHITH NAIDU 😁</h1>
+        <p id="special-1"><button>WEBSITE DESIGNER</button> &nbsp; -></p>
       </div>
-
-      <div class="row" id="home">
-        <div style="display: flex;padding-top: 50px;">
-          <div class="box">
-            <h1>Full Stack Developer</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
-              quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
-              perferendis assumenda?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
-              quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
-              perferendis assumenda?
-            </p>
-            <button>Button 1</button>
-            <button>Button 1</button>
-          </div>
-          <div class="box">
-            <img src="https://picsum.photos/id/2/400/400" />
-          </div>
-        </div>
-      </div>
-
-      <div id="projects" class="row" style="background-color: lightcoral">
-        <h1>Projects</h1>
-        <div style="display: flex">
-          <div class="box">
-            <h3>Project 1</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-             <a href=" https://pavan123kalyan.github.io/online-store/">Project 1</a>
-          </div>
-
-          <div class="box">
-            <h3>Project 2</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-              <a href="https://pavan123kalyan.github.io/Bank/">Project 2</a>
-          </div>
-
-          <div class="box">
-            <h3>Project 3</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-               <a href="https://pavan123kalyan.github.io/mystore/">Project-3</a>
-          </div>
-        </div>
-      </div>
-      <div id="services" class="row" style="background-color: lightblue">
-        <h1>Services</h1>
-        <div style="display: flex">
-          <div class="box">
-            <h3>Web App Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-
-          <div class="box">
-            <h3>Mobile App Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-
-          <div class="box">
-            <h3>Backend Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div id="about" class="row">
-        <h1>About</h1>
-        <h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint
-          optio labore a obcaecati. Ullam distinctio corrupti autem. Veritatis
-          ipsa veniam deserunt asperiores nesciunt at provident itaque
-          cupiditate vel dolor.
-        </h3>
-        <h2>Skills</h2>
-        <h3>Java, Python, Reactjs</h3>
-        <p>Display the logo of all the technologies you know.</p>
-      </div>
-      <div
-        id="contact"
-        class="row"
-        style="background-color: lightgoldenrodyellow"
-      >
-        <h1>Contact</h1>
-        <div style="display: flex">
-         
-
-          <div class="box">
-            <h3>Contact Form</h3>
-            <p>
-             <input type="text" placeholder="Enter Name">
-            </p>
-            <p>
-              <input type="email" placeholder="Enter Email">
-             </p>
-             <p>
-              <textarea rows="10" cols="60" placeholder="Enter message"></textarea>
-             </p>
-             <button>Send</button>
-          </div>
-
-          <div class="box">
-            <h3>Your/Company Name</h3>
-            <p>
-              <b>Address: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-            <p>
-              <b>Email Address: </b>sample@email.com
-            </p>
-            <p>
-              <b>Phone Number: </b>+91 343 445 6789
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="footer">@copyright 2024. All rights reserved.</div>
     </div>
-  </body>
+    <div class="right-section"></div>
+    <img src="./assets/images/mok_pic-removebg-preview.png" class="profile-image">
+  </section>
+
+  <section id="about">
+    <div class="about-content">
+      <h1>About Section</h1>
+      <p>Hey there! 👋 I'm Mokshith, a passionate Website Designer & Developer with a strong enthusiasm for crafting beautiful and functional web experiences. I love transforming creative ideas into reality using modern technologies. With a keen eye for design and a deep understanding of web development, I specialize in building responsive, user-friendly, and visually appealing websites. Whether it's a sleek portfolio, an interactive web app, or a full-fledged business website, I bring innovation, efficiency, and creativity to the table.</p>
+    </div>
+  
+    <div class="about-skills">
+      <h2>What I Do?</h2>
+      <p>✅ Website Development – Clean, efficient, and optimized websites</p>
+      <p>✅ UI/UX Design – Crafting intuitive and engaging user experiences</p>
+      <p>✅ Frontend & Backend Development – HTML, CSS, JavaScript, PHP & more</p>
+      <p>✅ SEO & Performance Optimization – Ensuring fast and search-engine-friendly websites.</p>
+    </div>
+  </section>
+  
+
+  <section id="portfolio">
+    <h1>Welcome to my portfolio! 🚀 Here, you'll find some of my best projects that showcase my skills in web development. Each project represents my dedication, creativity, and problem-solving ability.</h1>
+  
+    <div class="project">
+      <h2>Online Store</h2>
+      <p>This is a project that is basically made with HTML and CSS. You can click 👆 on the below link to see.</p>
+      <a href="https://mokshithnaidu14.github.io/project-1-griet-a-main/">View Online Store</a>
+    </div>
+  
+    <div class="project">
+      <h2>Bank Application</h2>
+      <p>This is a project that is basically made with HTML, CSS, and JavaScript. You can click 👆 on the below link to see.</p>
+      <a href="#">View Bank Application</a>
+    </div>
+  
+    <div class="project">
+      <h2>Portfolio Website</h2>
+      <p>This is a project that showcases my personal portfolio using modern UI/UX techniques. Click below to see.</p>
+      <a href="#">View Portfolio</a>
+    </div>
+  
+    <div class="project">
+      <h2>Blog Website</h2>
+      <p>A blog platform that allows users to share and explore content with an intuitive interface. Click below to see.</p>
+      <a href="#">View Blog Website</a>
+    </div>
+  </section>
+  
+
+  <section id="blog">
+    <h1>Latest Blog Posts 📝</h1>
+
+    <div class="blog-container">
+        <div class="blog-card">
+            <h2>🚀 The Future of Web Development</h2>
+            <p>Discover the latest trends in web development, from AI-driven design to next-gen frameworks.</p>
+            <a href="#">Read More →</a>
+        </div>
+
+        <div class="blog-card">
+            <h2>🎨 UI/UX Principles for Stunning Websites</h2>
+            <p>Learn how to create engaging and user-friendly designs that keep visitors hooked.</p>
+            <a href="#">Read More →</a>
+        </div>
+
+        <div class="blog-card">
+            <h2>🔐 Web Security: Best Practices</h2>
+            <p>Explore essential security measures to protect your websites from cyber threats.</p>
+            <a href="#">Read More →</a>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="contact">
+  <h1>📩 Get in Touch</h1>
+
+  <div class="contact-container">
+      <div class="contact-info">
+          <p>Have a project in mind or just want to say hi? Feel free to reach out! 🚀</p>
+          <p><strong>Email:</strong> mokshith@example.com</p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Location:</strong> Hyderabad, India</p>
+      </div>
+
+      <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+      </form>
+  </div>
+</section>
+
+
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('.navbar a').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+
+</body>
 </html>
