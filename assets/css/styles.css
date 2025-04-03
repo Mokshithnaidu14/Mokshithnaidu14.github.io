@@ -269,8 +269,9 @@ h1 {
 
 #contact h1 {
   font-size: 32px;
-  margin-bottom: 30px;
+  margin: 50px;
   color: #FFD700;
+  margin-top: -20px;
 }
 
 .contact-container {
@@ -286,6 +287,9 @@ h1 {
   text-align: left;
 }
 
+.contact-info strong{
+  color: #FFD700;
+}
 .contact-info p {
   font-size: 18px;
   margin: 10px 0;
@@ -321,4 +325,9 @@ h1 {
 
 .contact-form button:hover {
   background-color: #FFA500;
+}
+
+#root{
+  color: red;
+  margin-bottom: 20PX;
 }
